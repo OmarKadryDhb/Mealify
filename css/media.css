@@ -1,0 +1,398 @@
+@media screen and (max-width: 992px) {
+    .nav{
+        width: 100%;
+    }
+    .nav-bar-container{
+    width: 100%;
+    }
+      /* home */
+    .home{
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        
+    }
+    .home_content{
+        width: 350px;
+    }
+    .home_img{
+        margin-top: 90px;
+        width: 450px;
+    }
+    .bar-Mealify-logo::after{
+       right: 25%;
+    }
+        /* chefs */
+    .Chefs{
+        width: 100%;
+    }
+    .chefs-container-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .chefs-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .chefs-item{
+        margin: 20px;
+        width: 40%;
+    }
+            /* gallery */
+    .gallery{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .groups-container{
+        width: 100%;
+        display: flex;
+        transform: translateY(-60px);
+    }
+  
+    .img-layer{
+        margin-block: 15px; ;
+        width: 90%;
+    }
+           /* contact */
+    .contact{
+       width: 100%;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-content{
+        width: 100%;
+    }       
+    .content{
+        width:  100%;
+    }
+    .Map-parent{
+        width:100%;
+    }
+    .contact-data{
+        width: 100%;
+    }
+    .name-email-container {
+        width: 100%;
+    }
+    .name-email-container input{
+        width: 100%;
+        margin: 10px;
+    }
+    #subject{
+        margin: 3px;
+        width: 95%;
+    }
+    textarea{
+        margin: 3px;
+        width: 95%;
+    }
+            /* footer */
+    .feedback{
+        width: 100%;
+    }
+    .background{
+        width: 100%;
+        display: flex;
+    }
+    .feedback-layer{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Mealify-feedback{
+        width: 50%;
+    }
+    .feedback-Mealify{
+        width: 50%;
+    }
+    .feedback-subscribe{
+        width: 50%;
+    }
+    .to-subs{
+        width: 50%;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .get-in-content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav{
+        width: 100%;
+    }
+    .nav-bar-container{
+    width: 100%;
+    }
+      /* home */
+    .home{
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .home_content{
+        width: 350px;
+    }
+    .home_img{
+        margin-top: 90px;
+        width: 450px;
+    }
+    .bar-Mealify-logo::after{
+       right: 25%;
+    }
+        /* chefs */
+    .Chefs{
+        width: 100%;
+    }
+    .chefs-container-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .chefs-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chefs-item{
+        margin-block: 10px;
+        width: 90%;
+    }
+            /* gallery */
+    .gallery{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .groups-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-60px);
+        
+    }
+    .img-layer{
+        margin-block: 15px; ;
+        width: 90%;
+    }
+           /* contact */
+    .contact{
+       width: 100%;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-content{
+        width: 100%;
+    }       
+    .content{
+        width:  100%;
+    }
+    .Map-parent{
+        width:100%;
+    }
+    .contact-data{
+        width: 100%;
+    }
+    .name-email-container {
+        width: 100%;
+    }
+    .name-email-container input{
+        width: 100%;
+        margin: 10px;
+    }
+    #subject{
+        margin: 3px;
+        width: 95%;
+    }
+    textarea{
+        margin: 3px;
+        width: 95%;
+    }
+            /* footer */
+    .feedback{
+        width: 100%;
+    }
+    .background{
+        width: 100%;
+        display: flex;
+    }
+    .feedback-layer{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Mealify-feedback{
+        width: 100%;
+    }
+    .feedback-Mealify{
+        width: 100%;
+    }
+    .feedback-subscribe{
+        width: 100%;
+    }
+    .to-subs{
+        width: 100%;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .get-in-content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .nav{
+        width: 100%;
+    }
+    .nav-bar-container{
+    width: 100%;
+    }
+      /* home */
+    .home{
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .home_content{
+        width: 350px;
+    }
+    .home_img{
+        margin-top: 90px;
+        width: 450px;
+    }
+    .bar-Mealify-logo::after{
+       right: 25%;
+    }
+        /* chefs */
+    .Chefs{
+        width: 100%;
+    }
+    .chefs-container-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .chefs-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .chefs-item{
+        margin-block: 10px;
+        width: 90%;
+    }
+            /* gallery */
+    .gallery{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .groups-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-60px);
+        
+    }
+    .img-layer{
+        margin-block: 15px; ;
+        width: 90%;
+    }
+           /* contact */
+    .contact{
+       width: 100%;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-content{
+        width: 100%;
+    }       
+    .content{
+        width:  100%;
+    }
+    .Map-parent{
+        width:100%;
+    }
+    .contact-data{
+        width: 100%;
+    }
+    .name-email-container {
+        width: 100%;
+    }
+    .name-email-container input{
+        width: 100%;
+        margin: 10px;
+    }
+    #subject{
+        margin: 3px;
+        width: 95%;
+    }
+    textarea{
+        margin: 3px;
+        width: 95%;
+    }
+            /* footer */
+    .feedback{
+        width: 100%;
+    }
+    .background{
+        width: 100%;
+        display: flex;
+    }
+    .feedback-layer{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Mealify-feedback{
+        width: 100%;
+    }
+    .feedback-Mealify{
+        width: 100%;
+    }
+    .feedback-subscribe{
+        width: 100%;
+    }
+    .to-subs{
+        width: 100%;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .get-in-content {
+        width: 100%;
+    }
+}
+
