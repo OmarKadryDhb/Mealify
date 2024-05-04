@@ -272,20 +272,7 @@ nav{
     color: var(--main-color);
     
 }
-
-.chefs-container-parent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-.chefs-container{
-    width: 1500px;
-    display: flex;
-    justify-content: space-between;
-    
-}
 .chefs-item{
-    width: calc(80% / 3);
     text-align: center;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
     transition: all 1s;
@@ -295,7 +282,7 @@ nav{
 
 }
 .chefs-item:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
 }
 .chefs-item:hover .chefs-social-layer {
     right: 3%;
@@ -320,7 +307,7 @@ nav{
    
 }
 .chefs-social-layer{
-    width: 40px;
+    /* width: 40px; */
     height: 170px;
     display: flex;
     flex-direction: column;
@@ -328,7 +315,7 @@ nav{
     background-color: rgba(255,255, 255,0.9);
     opacity: 0.5;
     position: absolute ;
-    right: -12%;
+    right: 0%;
     top: 5%;
     transition: all 0.5s 0.5s;
     opacity: 0;
@@ -384,8 +371,7 @@ nav{
     color: var(--main-color);
 }
 .groups-container{
-    width: 1500px;
-    margin: auto;
+   
     display: flex;
 }
 .img-layer{
@@ -658,17 +644,17 @@ transform: scale(1.1);
     align-items: center;
 }
 .contact-content{
-    width: 1400px;
-    padding-top: 20px;
+    width: 100%;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 .content{
-    width:  48%;
     display: flex;
     text-align: left;
     justify-content: flex-start;
+    align-items: center;
     margin: 15px 10px;
     background-color: #f5f5f5;
 }
@@ -678,7 +664,6 @@ transform: scale(1.1);
     height: 55px;
     background-color: var(--main-color);
     border-radius: 50%;
-    transform: translateY(16px);
 }
 .icon i{
     font-size: 27px;
@@ -700,30 +685,41 @@ transform: scale(1.1);
     font-size: 16px;
     font-family: 'Open Sans', sans-serif ;
 }
-.contact-map iframe{
-    width:100%;
+.map-parent{
+    width:100%
+}
+.map-parent iframe{
+    width:100%
 }
 .contact-data{
-    width: 1380px;
+    width: 100%;
     margin: auto;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
 }
-.name-email-container {
-   width: 1380px;
-}
+
 .name-email-container input{
-    width: 665px;
-    height: 50px;
-    margin: 10px;
+    width: 100%;
+    /* margin: 10px; */
     padding: 15px;
 }
+.name{
+    width: 96.5%;
+    margin-left: 12px;
+}
+.email{
+    width: 97%;
+    margin-left: 12px;
+
+}
 #subject{
-    width: 1355px;
-    margin: 10px;
+    width: 96.1%;
+    margin-top: 15px;
+    margin-left: 10px;
     padding: 15px;
 }
 textarea{
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
     padding: 15px;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
