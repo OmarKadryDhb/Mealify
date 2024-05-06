@@ -61,15 +61,13 @@ nav li a:hover{
     padding-top: 50px;
     justify-content: center;
     align-items: center;
-    
+     
 }
 .home-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    
 }
 .home_content{
-    width: 50%;
+    /* width: 50%; */
 }
 .home_content h2{
     font-family: var(--main-font);
