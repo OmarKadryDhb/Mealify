@@ -14,7 +14,7 @@
     <body>
     
         <!-- start nav-bar section -->
-        <nav>
+        <nav class="">
             <div class="nav-bar-container p-2">
             <div class="bar-Mealify-logo">
                 <h1>Mealify</h1>
@@ -37,29 +37,34 @@
 
         <!-- start home section -->
         <section class="home container-fluid" id="Home">
-            <div class="home-container">
-                <div class="home_content">
-                    <h2>Enjoy Your Healthy
-                        Delicious Food
-                    </h2>
-                    <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur 
-                        eveniet. Eum quas beatae cumque eum quaerat.</p>
-                        <div class="home-buttons">
-                        <a href="" id="book">Book a Table</a>
-                        
-                        <div class="watch-video-design">      
-                        <a href="" id="video"><i class="fa-solid fa-play"></i> Watch Video</a>
-                            <div class="test"></div>
+            <div class="home-container container-fluid">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="home_content">
+                            <h2>Enjoy Your Healthy
+                                Delicious Food
+                            </h2>
+                            <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur 
+                                eveniet. Eum quas beatae cumque eum quaerat.</p>
+                                <div class="home-buttons">
+                                <a href="" id="book">Book a Table</a>
+                                
+                                <div class="watch-video-design">      
+                                <a href="" id="video"><i class="fa-solid fa-play"></i> Watch Video</a>
+                                    <div class="test"></div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="home_img d-flex justify-content-center align-items-center">
+                            <img src="./images/hero-img.png" alt="">
                         </div>
-                        
-                    
-                    
-                    
                     </div>
-                    </div>
-                <div class="home_img">
-                    <img src="./images/hero-img.png" alt="">
+
                 </div>
+                
+                
             </div>
         </section>
         <!-- end home section -->
@@ -307,7 +312,7 @@
                 <div class="name-email-container container d-flex justify-content-around pt-2">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="name bg-warning d-flex justify-content-center align-items-center">
+                            <div class="name d-flex justify-content-center align-items-center">
                                 <input type="text" id="name" class="" name="name" placeholder="Your Name">
                             </div>
                         </div>
@@ -318,8 +323,8 @@
                         </div>
                     </div>
                 </div>
-                    <input type="text" class="f" name="subject" id="subject" placeholder="Subject">
-                    <textarea name="textarea" class="" id="textarea" cols="162" rows="10" placeholder="Message"></textarea>    
+                    <input type="text" class="" name="subject" id="subject" placeholder="Subject">
+                    <textarea name="textarea" class="m-auto mt-3"  id="textarea" placeholder="Message"></textarea>    
                    <div class="contact-button"><a href="">Send Message</a></div>
                     
             </div>
@@ -330,65 +335,75 @@
         <!-- start section feedback -->
         <footer class="feedback container-fluid">
           <div class="background">
-            <div class="feedback-layer">
-
+            <div class="feedback-layer container-fluid pt-1">
+                <div class="row gy-3">
                 <!-- Mealify-subscribe -->
-                <div class="Mealify-feedback">
-                    <div class="feedback-Mealify">
-                        <div class="Mealify-logo">
-                        <img src="./images/favicon.png" alt="">
-                        </div>
-                        <div class="Mealify-info">
-                            <h1>Mealify</h1>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="Mealify-feedback">
+                            <div class="feedback-Mealify mb-3 pt-3">
+                                <div class="Mealify-logo">
+                                <img src="./images/favicon.png" alt="">
+                                </div>
+                                <div class="Mealify-info">
+                                    <h1>Mealify</h1>
+                                </div>
+                            </div>
+                            <p>Mealify is a restaurant landing page that 
+                            offers a delicious dining experience to its customers.</p>  
+                            <h3>Social Media</h3>
+                            <div class="feedback-social-layer d-flex justify-content-between align-items-center">
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <p>Mealify is a restaurant landing page that 
-                    offers a delicious dining experience to its customers.</p>  
-                    <h3>Social Media</h3>
-                    <div class="feedback-social-layer">
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-
                 <!-- feedback-subscribe -->
-                <div class="feedback-subscribe">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feedback-subscribe">
                     
-                    <h3>Subscribe our Newsletter</h3>
-                    <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter 
-                        today and stay up-to-date with all things Mealify!</p>
-                        <div class="to-subs">
-                        <input type="email" id="email" name="email" placeholder=" Enter Your Email Address">
-                        <button><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                            <h3>Subscribe our Newsletter</h3>
+                            <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter 
+                                today and stay up-to-date with all things Mealify!</p>
+                                <!-- <div class="to-subs">
+                                <input type="email" id="email" name="email" placeholder=" Enter Your Email Address">
+                                <button><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                                </div> -->
+                                <h3>Quick Links</h3>
+                            <div class="Quick">
+                            <ul>
+                                <li><a href="">> Menu</a></li>
+                                <li><a href="">> About Us</a></li>
+                                <li><a href="">> Testimonial</a></li>
+                                <li><a href="">> Promo</a></li>
+                                <li><a href="">> Contact</a></li>
+                                <li><a href="">> Our Partners</a></li>
+                            </ul>    
                         </div>
-                        <h3>Quick Links</h3>
-                    <div class="Quick">
-                    <ul>
-                        <li><a href="">> Menu</a></li>
-                        <li><a href="">> About Us</a></li>
-                        <li><a href="">> Testimonial</a></li>
-                        <li><a href="">> Promo</a></li>
-                        <li><a href="">> Contact</a></li>
-                        <li><a href="">> Our Partners</a></li>
-                    </ul>    
-                </div>
-                </div>
-
+                        </div>
+                    </div>
                 <!-- get-in-touch -->
-                <div class="get-in-touch">
-                    <h3>Get in Touch</h3>
-                    <div class="get-in-content">
-                    <ul>
-                        <li><i class="fa-solid fa-location-dot"></i>
-                            <span>A108 Adam Street, New York, NY 535022</span>
-                        </li>
-                        <li><i class="fa-solid fa-envelope"></i><a href="">contact@example.com</a></li>
-                        <li><i class="fa-solid fa-phone"></i><a href="">+1 5589 55488 55</a></li>
-                    </ul>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="get-in-touch">
+                            <h3>Get in Touch</h3>
+                            <div class="get-in-content">
+                            <ul>
+                                <li><i class="fa-solid fa-location-dot"></i>
+                                    <span>A108 Adam Street, New York, NY 535022</span>
+                                </li>
+                                <li><i class="fa-solid fa-envelope"></i><a href="">contact@example.com</a></li>
+                                <li><i class="fa-solid fa-phone"></i><a href="">+1 5589 55488 55</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
+                
+
+                
+
+                
             </div>
         </div>
         </footer>        

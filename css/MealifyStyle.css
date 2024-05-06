@@ -98,19 +98,18 @@ nav{
     height: 100vh;
     background-color: #EEEEEE;
     display: flex;
-    
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
     
 }
 .home-container{
-    width: 1800px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .home_content{
-    width: 450px;
+    width: 50%;
 }
 .home_content h2{
     font-family: var(--main-font);
@@ -196,11 +195,10 @@ nav{
     z-index: 1;
 }
 .home_img{
-    width: 550px;
+    width: 600px;
 }
 .home_img img{
     width: 100%;
-    
 }
 .home_img:hover{
     animation-name: imgAnimation;
@@ -723,6 +721,8 @@ textarea{
     padding: 15px;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 96.1%;
+
 }
 .contact-button{
     margin: 40px;
@@ -749,23 +749,19 @@ textarea{
 .feedback{
     margin-top: 40px;
     background-image: url(../images/background.jpg);
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .background{
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
-.feedback-layer{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
+
 /* Mealify-feedback */
 .Mealify-feedback{
-    width: 25%;
+    /* width: 25%; */
 }
 .Mealify-feedback p{
     font-family: 'Open Sans', sans-serif;
@@ -782,7 +778,7 @@ textarea{
 }
 .Mealify-feedback h3::before{
     content: "";
-    width: 370px;
+    /* width: 370px; */
     height: 2px;
     position: absolute;
     bottom: 0%;
@@ -792,12 +788,11 @@ textarea{
     background-color: grey;
 }
 .feedback-Mealify{
-    width: 60%;
     display: flex;
     justify-content: flex-start;
 }
 .Mealify-logo{
-    width:20% ;
+    width:100px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -806,7 +801,7 @@ textarea{
     width: 100%;
 }
 .Mealify-info{
-    width: 40%;
+    /* width: 40%; */
     text-align:left;
     padding: 13px;
     position: relative ;
@@ -825,18 +820,15 @@ textarea{
     
 }
 .feedback-social-layer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 40%;
 }
 .feedback-social-layer i{
     color: white;
-    margin: 10px 20px 0px 20px;
     font-size:28px ;
 }
 /* feedback-subscribe */
 .feedback-subscribe{
-    width: 55%;
+    /* width: 55%; */
 }
 .feedback-subscribe h3{
     font-size: 19px;
@@ -852,6 +844,7 @@ textarea{
 .to-subs{
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 20px;
 }
 .to-subs input{
     width: 650px;
@@ -875,7 +868,7 @@ textarea{
 }
 
 .Quick{
-    width: 90%;
+    /* width: 90%; */
 }
 .Quick ul{
     padding: 0px;
@@ -902,7 +895,7 @@ textarea{
 
 /* get-in-touch */
 .get-in-touch{
-    width: 20%;
+    /* width: 20%; */
  }
 .get-in-touch h3{
     font-size: 19px;

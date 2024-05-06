@@ -1,3 +1,8 @@
+/* @media screen and (max-width: 1026px) {
+    .contact-data textarea{
+        column-count: 200;
+    }
+} */
 @media screen and (max-width: 992px) {
     .nav{
         width: 100%;
@@ -19,11 +24,13 @@
         
     }
     .home_content{
-        width: 350px;
     }
     .home_img{
         margin-top: 90px;
         width: 450px;
+    }
+    .home_img img{
+        width: 350px;
     }
     .bar-Mealify-logo::after{
        right: 25%;
@@ -87,8 +94,12 @@
     }
     .name-email-container input{
         width: 100%;
-        margin: 10px;
+        margin-bottom: 10px;
     }
+    .name{
+        margin-left: 0px;
+    }
+   
     #subject{
         margin: 3px;
         width: 95%;
@@ -156,7 +167,7 @@
     }
     .home_img{
         margin-top: 90px;
-        width: 450px;
+        width: 350px;
     }
     .bar-Mealify-logo::after{
        right: 25%;
