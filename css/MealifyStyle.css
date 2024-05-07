@@ -15,15 +15,10 @@
             /* star nav-bar section */
 nav{
     z-index: 999;
-    inset-inline: 0;
+    right: 0%;
+    left: 0%;
 }
-.nav-bar-container{
-    width: 1550px;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .bar-Mealify-logo {
     width: 250px;
     text-align: center;
@@ -63,12 +58,6 @@ nav li a:hover{
     align-items: center;
      
 }
-.home-container{
-    
-}
-.home_content{
-    /* width: 50%; */
-}
 .home_content h2{
     font-family: var(--main-font);
     font-size: 65px;
@@ -86,10 +75,7 @@ nav li a:hover{
     font-family:  var(--button-font);
 }
 .home-buttons{
-    width: 370px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 35 0px;
 }
 #book{
     width: 130px;
@@ -151,9 +137,6 @@ nav li a:hover{
     font-size: 25px;
     transform: translate(-18px,-3px);
     z-index: 1;
-}
-.home_img{
-    width: 600px;
 }
 .home_img img{
     width: 100%;

@@ -166,9 +166,12 @@
         width: 350px;
     }
     .home_img{
-        margin-top: 90px;
-        width: 350px;
+        /* width: 350px; */
     }
+    .home_img img{
+        width: 30%;
+    }
+    
     .bar-Mealify-logo::after{
        right: 25%;
     }
