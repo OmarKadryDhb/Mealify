@@ -23,8 +23,6 @@
         padding: 20px;
         
     }
-    .home_content{
-    }
     .home_img{
         margin-top: 90px;
         width: 450px;
@@ -162,9 +160,7 @@
         padding: 20px;
         flex-direction: column-reverse;
     }
-    .home_content{
-        width: 350px;
-    }
+
     .home_img{
         /* width: 350px; */
     }
@@ -297,9 +293,7 @@
         padding: 20px;
         flex-direction: column-reverse;
     }
-    .home_content{
-        width: 350px;
-    }
+    
     .home_img{
         margin-top: 90px;
         width: 450px;
